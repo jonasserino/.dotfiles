@@ -20,4 +20,7 @@ vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
-vim.cmd('colorscheme tokyonight')
+vim.cmd('colorscheme nord')
+vim.cmd('set noshowmode')
+vim.cmd('set laststatus=2')
+vim.cmd('hi Normal ctermbg=none guibg=none')

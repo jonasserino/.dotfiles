@@ -16,9 +16,8 @@ return require("packer").startup(function()
     use("L3MON4D3/LuaSnip")
     
     use{"nvim-treesitter/nvim-treesitter", run = function() require('nvim-treesitter.install').update({ with_sync = true }) end } 
-    use("gruvbox-community/gruvbox")
-    use("folke/tokyonight.nvim")
 
     use('vim-airline/vim-airline')
     use('vim-airline/vim-airline-themes')
+    use('arcticicestudio/nord-vim')
 end)
