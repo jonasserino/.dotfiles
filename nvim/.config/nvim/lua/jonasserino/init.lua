@@ -1,5 +1,0 @@
-require("jonasserino.set")
-require("jonasserino.keymap")
-require("jonasserino.packer")
-require("jonasserino.lspconfig")
-require("jonasserino.treesitter")

@@ -1,9 +1,11 @@
 font:
   normal:
-    family: MesloLGS NF
+    family: "MesloLGS NF"
+window:
+  opacity: 0.8
 colors:
   primary:
-    background: '#2e3440'
+    background: '#2E3440'
     foreground: '#d8dee9'
     dim_foreground: '#a5abb6'
   cursor:
