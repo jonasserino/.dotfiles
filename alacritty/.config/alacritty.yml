@@ -2,7 +2,7 @@ font:
   normal:
     family: "MesloLGS NF"
 window:
-  opacity: 0.8
+  opacity: 0.95
 colors:
   primary:
     background: '#2E3440'
