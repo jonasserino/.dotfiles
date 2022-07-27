@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  neoformat = {
+    loaded = true,
+    path = "/home/jonasserino/.local/share/nvim/site/pack/packer/start/neoformat",
+    url = "https://github.com/sbdchd/neoformat"
+  },
   ["nord-vim"] = {
     loaded = true,
     path = "/home/jonasserino/.local/share/nvim/site/pack/packer/start/nord-vim",

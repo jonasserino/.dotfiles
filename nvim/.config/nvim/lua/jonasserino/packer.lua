@@ -6,6 +6,7 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
+  use 'sbdchd/neoformat'
 
   use 'nvim-lua/plenary.nvim'
   use 'nvim-telescope/telescope.nvim'
